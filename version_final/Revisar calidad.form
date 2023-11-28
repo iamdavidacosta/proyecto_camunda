@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "text": "# CALIDAD",
+      "type": "text",
+      "layout": {
+        "row": "Row_1d98fo0",
+        "columns": null
+      },
+      "id": "Field_1fe9zxo"
+    },
+    {
+      "text": "Prueba de calidad para el vehiculo (Digite cuantas irregularidades tiene el Vehiculo)",
+      "type": "text",
+      "layout": {
+        "row": "Row_1xvyid9",
+        "columns": null
+      },
+      "id": "Field_0955pyj"
+    },
+    {
+      "label": "Numero_errores",
+      "type": "number",
+      "layout": {
+        "row": "Row_1xvyid9",
+        "columns": null
+      },
+      "id": "Field_0xxfwx9",
+      "key": "numero_errores"
+    }
+  ],
+  "type": "default",
+  "id": "RevisarCalidad",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
