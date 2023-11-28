@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "text": "# Listado de vehiculos",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1709p79",
+        "columns": null
+      },
+      "id": "Field_0122x32"
+    },
+    {
+      "values": [
+        {
+          "label": "SUSUKI S-PRESSO",
+          "value": "SUZUKI_S-PRESSO"
+        },
+        {
+          "label": "SUZUKI SWIFT SEDAN",
+          "value": "SUZUKI_SWIFT_SEDAN"
+        },
+        {
+          "label": "SUZUKI SWIFT HIBRIDO",
+          "value": "SUZUKI_SWIFT_HÍBRIDO"
+        },
+        {
+          "label": "SUZUKI BALENO CROSS",
+          "value": "SUZUKI_BALENO_CROSS"
+        },
+        {
+          "label": "SUZUKI VITARA 4X2",
+          "value": "SUZUKI_VITARA_4X2"
+        },
+        {
+          "label": "SUZUKI VITARA 4X4",
+          "value": "SUZUKI_VITARA_4X4"
+        },
+        {
+          "label": "SUZUKI JIMNY",
+          "value": "SUZUKI_JIMNY"
+        },
+        {
+          "label": "SUZUKI FRONX HÍBRIDA",
+          "value": "SUZUKI_FRONX_HIBRIDA"
+        }
+      ],
+      "label": "Seleccionar vehiculos",
+      "type": "select",
+      "layout": {
+        "row": "Row_11yeg1d",
+        "columns": null
+      },
+      "id": "Field_0lxonn4",
+      "key": "vehiculo"
+    }
+  ],
+  "type": "default",
+  "id": "listado_vehiculos",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

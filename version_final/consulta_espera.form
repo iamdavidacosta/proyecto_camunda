@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Consulta de espera",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1ilrc9t",
+        "columns": null
+      },
+      "id": "Field_003rxoy"
+    },
+    {
+      "values": [
+        {
+          "label": "si",
+          "value": "si"
+        },
+        {
+          "label": "no",
+          "value": "no"
+        }
+      ],
+      "label": "el vehiculo no se encuentra en nuestro consecionario desea esperar a que el vehiculo llegue del distribuidor?",
+      "type": "select",
+      "layout": {
+        "row": "Row_08jd9iq",
+        "columns": null
+      },
+      "id": "Field_0k338bi",
+      "key": "respuesta_espera"
+    }
+  ],
+  "type": "default",
+  "id": "consulta_espera",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

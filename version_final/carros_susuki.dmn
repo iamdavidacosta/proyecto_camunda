@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Definitions_0dl4c3k" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="carros_susuki" name="Carros Susuki">
+    <decisionTable id="DecisionTable_01l4wb9">
+      <input id="Input_1" label="Vehiculo" camunda:inputVariable="vehiculo">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="precio" typeRef="long" />
+      <rule id="DecisionRule_0pro7qz">
+        <inputEntry id="UnaryTests_118cfvl">
+          <text>"SUZUKI_S-PRESSO"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0oseyd7">
+          <text>65090000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1arn5oi">
+        <inputEntry id="UnaryTests_08ccmw0">
+          <text>"SUZUKI_SWIFT_SEDAN"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_10c6mmr">
+          <text>77710000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0oiiqn5">
+        <inputEntry id="UnaryTests_1yeh113">
+          <text>"SUZUKI_SWIFT_HIBRIDO"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_070ylj7">
+          <text>88070000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0i8oqg1">
+        <inputEntry id="UnaryTests_0e2ks3v">
+          <text>"SUZUKI_BALENO_CROSS"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0uq540m">
+          <text>89040000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_01pxu1g">
+        <inputEntry id="UnaryTests_05zdytj">
+          <text>"SUZUKI_VITARA_4X2"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0afbv1a">
+          <text>108750000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_10u7z23">
+        <inputEntry id="UnaryTests_1caqm4t">
+          <text>"SUZUKI_VITARA_4X4"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1wkb4h9">
+          <text>116750000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_018y38g">
+        <inputEntry id="UnaryTests_0oxf51w">
+          <text>"SUZUKI_JIMNY"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0attn9g">
+          <text>167200000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_09urqin">
+        <inputEntry id="UnaryTests_00cetvi">
+          <text>"SUZUKI_FRONX_HIBRIDA"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0fwuwe8">
+          <text>115990000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_031ox0c">
+        <inputEntry id="UnaryTests_1mdvu6r">
+          <text>"SUZUKI_S-CROSS_4X2"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_13cxa28">
+          <text>128540000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0yn6cm1">
+        <inputEntry id="UnaryTests_04b0oqg">
+          <text>"SUZUKI_S-CROSS_4X4"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_028q6it">
+          <text>134540000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0l3mt3x">
+        <inputEntry id="UnaryTests_0jk0v3f">
+          <text>"GRAND_VITARA_HIBRIDA_4X2"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ykqbmk">
+          <text>151990000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0chstpa">
+        <inputEntry id="UnaryTests_1rwl3es">
+          <text>"GRAND_VITARA_HIBRIDA_4X4"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ppgmm4">
+          <text>167990000</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="carros_susuki">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

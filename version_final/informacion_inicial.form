@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "text": "# Informacion inicial",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0g5s128",
+        "columns": null
+      },
+      "id": "Field_0ojgo2f"
+    },
+    {
+      "label": "Nombre Completo",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1k40puo",
+        "columns": null
+      },
+      "id": "Field_0xslupc",
+      "key": "nombre",
+      "defaultValue": "David"
+    },
+    {
+      "label": "Cedula",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0qm6apa",
+        "columns": null
+      },
+      "id": "Field_0f7bwx0",
+      "key": "cedula",
+      "defaultValue": "1192819061"
+    },
+    {
+      "label": "Presupuesto",
+      "type": "number",
+      "layout": {
+        "row": "Row_1pdzik2",
+        "columns": null
+      },
+      "id": "Field_18okrxm",
+      "key": "presupuesto",
+      "validate": {
+        "min": 65090000
+      },
+      "defaultValue": 167200000
+    },
+    {
+      "label": "Celular",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_06isn9k",
+        "columns": null
+      },
+      "id": "Field_1lwaj81",
+      "key": "celular",
+      "defaultValue": "310265869"
+    }
+  ],
+  "type": "default",
+  "id": "informacion_inicial",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
