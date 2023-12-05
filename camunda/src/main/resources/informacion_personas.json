@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "David Acosta",
+    "cedula": 1192819061,
+    "libre_de_multa": true,
+    "inscrito_en_rut": true,
+    "documento_valido": true
+  },
+  {
+    "nombre": "Daniel Martinez",
+    "cedula": 160004426,
+    "libre_de_multa": false,
+    "inscrito_en_rut": true,
+    "documento_valido": true
+  }
+]
